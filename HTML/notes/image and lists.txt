@@ -1,0 +1,80 @@
+images:
+In HTML, you can insert images using
+'img' tag
+img is a self closing inline element it takes minimum of one attribute called src(source)
+
+eg: <img src="link" alt="alternate text" >
+alt text will appear only if path/url in src is not working
+
+you can also give height and width inline of img as pixels
+<img src="path" alt="image" height="100"
+width="200" >
+
+
+Lists:
+
+lists are used to list out the items either ordered or unordered.
+lists in HTML are three types
+1.ordered lists:
+orderd lists are written inside "ol" tag and each list item will be inside "li" tag
+
+<ol>
+ <li>x</li>
+ <li>y</li>
+ <li>z</li>
+</ol>
+
+By default orderd lists contains numbers, if you want to change the representation of order, you can use attribute "type"
+
+<ol type="1/A/a/i/I">
+ <li>x</li>
+ <li>y</li>
+ <li>z</li>
+</ol> 
+
+you can also start with a specific value
+<ol type="1" start="9">
+ <li>x</li>
+ <li>y</li>
+ <li>z</li>
+</ol>
+
+2.unorderd lists:
+Unorderd lists are used when list order is not important
+
+they use ul tag and li tags
+
+<ul>
+ <li>x</li>
+ <li>y</li>
+ <li>z</li>
+</ul>
+
+3.definition lists:
+
+there are some lists called definition lists which take "dl" tag and each definition term "dt tag and each definition data "dd" tag
+
+<dl>
+  <dt> HTML </dt>
+  <dd> Hyper text markup language </dd>
+  <dt> CSS </dt>
+  <dd> Cascading style sheets </dd>
+</dl>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

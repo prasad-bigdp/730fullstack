@@ -1,0 +1,33 @@
+CSS stands for Cascading Style Sheets which are used for styling/designing of the web page
+
+it started by 1994 and evolved now as "CSS3"
+
+How do you apply CSS to HTML?
+There are 3 ways
+i. inline CSS: mention css properties as "style" as a attribute in the line line of element is inline CSS.
+<h1 style="background-color: red;">Heading 1</h1>
+
+ii. internal CSS: we can mention CSS Properties with "style" as a element in the head of HTML
+<style>
+   selector
+   {
+    //properties
+   }
+</style>
+
+selector is the way styling can recognize the elements
+basic selectors are tag name,class name,id name
+classname have .classname selector
+id have #idname selector
+id>class>tag name
+Inline CSS > Internal CSS
+
+iii. External CSS: you can even mention all CSS as a external file called External CSS
+
+<link rel="stylesheet" href="path to css" />
+
+
+Comment in css is /* and ends with */
+
+
+

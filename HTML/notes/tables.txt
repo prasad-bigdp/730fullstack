@@ -1,0 +1,7 @@
+Tables are used to represent the data in rows and columns. horizontal representation of data is row and vertical attribute of data is Column.
+whole table will be binded inside "table" tag.
+inside table tag we should mention "tr" tag for table row.
+inside each row, columns can be mentioned either by th(table head) or td(table data)
+By default th is bold and will be centered
+table have attributes like "border", "cellspacing"(space between cells),cellpadding(space inside the cells)
+each column(th or td) have attributes like "colspan" to combine columns and "rowspan" to combine rows

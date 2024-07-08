@@ -1,0 +1,46 @@
+In 1960's US started ARPA NET for internal Military communication, leter tim berners lee developed WWW(world wide web) in late 1980's and ealy 1990's, www became so popular
+GML (Generalized Markup Language) ===> SGML(standard Generalized Markup Language) ===> HTML(Hyper Text Markup Language). current version of HTML is 5.
+
+The World Wide Web Consortium(W3C) is the main international standards organization for the World Wide Web. Founded in 1994 and led by Tim Berners-Lee, the consortium is made up of member organizations that maintain full-time staff working together in the development of standards for the World Wide Web.
+There is a standard called WYSIWYG(What you see is What you get)
+
+ROBO(chitti) -- structure --HTML ,
+             -- styling  --  CSS,
+             -- functionality --JS
+
+HTML is used to represent structutre/skeleton of web pages
+
+In HTML everything is done by tags. tags are values which are embraced by < and >. There are two types
+Open Tags and close Tags.
+<tagname> -----open tag
+</tagname>-----close tag
+
+some content will be there between open tag and close tag
+
+indentation is the gap HTML elements contain to make HTML code Preety 
+
+Comments are used for more understanding of the code. They are not executable by HTML
+<!-- comment -->
+
+The shortcuts in VSCode are called emmets
+To get empty html starter template, we can use !+enter or html:5+enter
+
+structure of HTML:
+
+<!DOCTYPE html> <!-- this line represents following document is HTML   -->
+
+<html lang="en"><!-- this is html open tag and it has language property en-->
+
+<head><!-- head represents meta data - data about data-->
+
+    <meta charset="UTF-8"> <!-- UTF- 8 is unicode charcter set-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- this represent initial width and zoom of website-->
+    <title>First- Site</title><!-- it represents the title of the website-->
+
+</head>
+<body>
+
+    <!-- actual content of the website is inside the bosy-->
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form action="main.java" method="get">
+        <fieldset>
+            <legend>My details</legend>
+            <input type="text" id="fname" placeholder="First Name" name="fname" required minlength="6" maxlength="10">
+        <input type="text" id="lname" placeholder="Last Name" name="lname" value="singh" readonly><br><br>
+        <input type="text" name="em" id="em" message="this is error" placeholder="Enter Email" required pattern="[0-9]{2}"><br><br>
+        </fieldset>
+        <br><br>
+        <input type="number" name="age" placeholder="Enter age" min="18"><br><br>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label> <br><br>
+        <label>Languages Known:</label>
+        <input type="checkbox" name="lang" id="en"><label for="en">English</label>
+        <input type="checkbox" name="lang" id="hi"><label for="hi">Hindi</label>
+        <input type="checkbox" name="lang" id="tamil"><label for="tamil">tamil</label>
+        <input type="checkbox" name="lang" id="te"><label for="te">telugu</label>
+        <!-- drop down -->
+         <label>select state</label>
+         <select name="state">
+            <option value="AP">AP</option>
+            <option value="TS">TS</option>
+            <option value="TN">TN</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Goa">Goa</option>
+            <option value="UP">UP</option>
+            <option value="MH">MH</option>
+            <option value="KN">KN</option>
+         </select>
+         <!-- multi selected -->
+          <label>Prefered location</label>
+          <select>
+            <optgroup label="Telangana">
+                <option value="HYD">HYD</option>
+            </optgroup>
+            <optgroup label="kerala">
+                <option value="kochin">Kochin</option>
+            </optgroup>
+           
+            <optgroup label="goa">
+                <option value="Goa">Goa</option>
+            </optgroup>
+           <optgroup label="Tamil nadu">
+             <option value="chennai">Chennai</option>
+            <option value="madhurai">madhurai</option>
+           </optgroup>
+           <optgroup label="karnataka">
+             <option value="bangalore">bangalore</option>
+            <option value="mangalore">mangalore</option>
+           </optgroup>
+           <optgroup label="UP">
+             <option value="noida">noida</option>
+           </optgroup>
+          <optgroup label="maharastra">
+              <option value="pune">pune</option>
+          </optgroup>
+          </select><br><br>
+          <input type="text" name="jobname" value="developer" disabled><br><br>
+         <label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+  <option value="Chocolate"></option>
+  <option value="Coconut"></option>
+  <option value="Mint"></option>
+  <option value="Strawberry"></option>
+  <option value="Vanilla"></option>
+</datalist>
+         <button type="submit">submit</button>
+          
+    </form>
+    
+</body>
+</html>

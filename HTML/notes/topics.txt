@@ -1,0 +1,28 @@
+internet fundamentals
+dev tools,vscode
+hashnode,dev.to
+-------------
+HTML
+-------------
+history,
+structure,
+headings,p,a
+formatting tags,
+elements(block vs inline)
+images
+lists
+table
+Semantic Elements
+form inputs
+form validation
+media
+html5 -- need to discuss in js
+micellenous
+
+Projects
+-------------
+WWW Projects
+profile
+time table
+resume
+media(tribute page)

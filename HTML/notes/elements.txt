@@ -1,0 +1,20 @@
+what is an element? what is difference between element and tag?
+
+Element is a complete html content with proper tags
+
+<p> -----> paragrah open tag
+
+</p> --- > paragraph closing tag
+
+paragrah element ---> open + content +close
+
+there are 2 types of elements in HTML
+1. block element: block elements always comes in new line and they have proper height and width
+Eg: headings,paragraphs, etc..,
+
+common block element to wrap elements is "div"
+2. inline element: 
+inline elements always comes in the same line and they don't have proper height and width
+eg: a,input,formatiing tags like b,strong,i,em,u, etc..,
+
+common inline element is "span"

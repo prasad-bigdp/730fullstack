@@ -1,0 +1,99 @@
+Forms are the ways to collect users information or make some actions done.
+Forms uses different inputs. forms are defined between form tag.
+form tag have 2 attributes , 
+action : the path to the file to which we send form data
+method: this is the way how we send data to form submission file, there are two ways GET and POST. GET will display formdata in URL whereas POST will not.
+Forms like searches uses GET and forms like login uses POST
+There are different of INPUTS:
+INPUT : input is a self closing inline element which have following attributes
+  type: defined the type of INPUT,
+  placeholder : dummy text placed in the input, the moment users starts to enter value in input this text will disappear
+  value: it prepopulated a value in input box
+  name : this is the name by which submitted file receives
+  id: id is used to uniquely identify the input
+Different Input Types:
+text: used to texts
+email: used for email, default validation is there
+password: used for passwords. text will be hidden
+color: used to select/input colors
+date : used to select date from calender
+datetime-local: used to select date and time
+time: used to select only time(24hrs format)
+number: used to input numbers
+tel: used to input phone numbers
+month: used to select month with year
+week: w=used to select week number
+url: used to select/input url.
+search: used to enter search keywords( by default when you press enter search makes form submitted , so avoid search in other forms)
+button: it is similar to button tag but will write text inside value
+submit,reset: these are buttons used to submit or reset the form
+file: file is used to select files
+
+checkbox: checkboxes are used to select multiple elements. after input , we write label and name attributes of all checkboxes for same purpose should be same
+you can also give checked flag to make automatic select the checkbox
+
+radio: radio buttons are used to select unique elements , labels will written after input and same purpose radio button should have same name attribute, default " checked" flag can be used
+
+select : select is used to display drop down anddropdrowns are used to select single or multiple items
+
+each select contains atleast one option with a value
+
+<select name="flavour">
+  <option value="chocolate">chocolate</option>
+  <option value="vanilla">vanilla</option>
+  <option value="butterscotch">butterscotch</option>
+</select>
+
+you can write multiple in select to select multiple values and you can even change size by size attribute
+
+you can group options by optgroup with label
+
+<optgroup label="cars">
+  <option value="BMW">BMW</option>
+  <option value="ford">ford</option>
+</optgroup>
+
+hidden: you can even hide an input using input type "hidden"
+data-list: datalist is similar to select but it will not shown to the screen, instead u need bind it to input by list attribute
+
+form validations:
+you can validate the form by following attributes
+required: make the input required and form will not be submitted until u gave value
+readonly- make the input available for only read
+disabled: disables the input
+min/max : defines a value minimum or maximum
+minlength/maxlength : defines a minimum characters length/maximum characters length
+patterns: patterns are the great way to assign complex logics to match the inputs
+eg: [A-Z]{4,}[a-z]{3,} makes minimum 4 uppercase and 3 lowercase alphabets
+
+
+you can combine fields using fieldset and assign a legend (which displays like a gate)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MAke a Licence REgistration Form
+list of vehichcles with grouping
+
+
+
+
+
+
+

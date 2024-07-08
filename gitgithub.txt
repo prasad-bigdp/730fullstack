@@ -1,0 +1,23 @@
+what is git?
+git is a distributed version control system software. we need to download and install it. it is powered by Oracle
+
+step 1: goto https://git-scm.com/download/win
+step 2: download 64/32 setup and install
+step 3: while installing make sure u select vscode as default editor
+step 4: click next until it is installed
+step 5: verify by going to cmd and type "git -v"
+
+
+what is github?
+github is an online repository system which is used to maintain/deploy/share the code in internet
+
+goto github.com and create a repository
+
+in vscode, open terminal--> new terminal
+
+
+
+
+
+
+

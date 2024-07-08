@@ -1,0 +1,14 @@
+Formatting tags are used to format the text
+b- is used for bold the context
+strong- is also used to bold the context but in search engines understanding, these words are important
+i -- is used to maake the text italic
+em - also used to make the text italic but search engines undeerstand like an emphasized text
+u- used to make text underline
+strike- used to make the text strike out
+ins- used to make the text inserted into page. it appears like underline
+del- used to make the text deleted according to search engines understanding but it appears like strike out
+sub- to make the textsubscript
+sup- to make the text superscript
+mark- used to highlight the text
+code - used to represent codes
+pre- used to represent pre formatted text

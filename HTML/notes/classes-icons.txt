@@ -1,0 +1,13 @@
+Always prefer writing HTML with Semantic Elements
+Symbols: if we want any symbols or emojis , we can use symbol code which are followed by '&' like &gt;,&lt;,&copy;,&#128513; etc..,
+You can also use VS Code shortcut windows+. , you will get a modal with emojis
+ICons: if we want to involve icons, best library is font-awesome icons, 
+
+how to use font awesome?
+goto google type "cdn font awesome" , goto cdn website and copy the first link  or you also get it from below
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+copy the link and paste in html head , and goto font awesome copy any icon ypu like and paste in HTML Body
+
+
+We can also give names to HTML Elements in two ways classes and id.
+One Element may have multiple class names and multiple Elements may have same class name but id is always unique for the element

@@ -1,0 +1,4 @@
+semantic elements are used to wrap the code into meaningful tags which can be understand well by search engines
+It will not have any effect in User Interface.
+Most popular semantic tags are 
+header,main,footer,section,article,thead,tbody,tfoot,nav,aside,details,summary etc..,

@@ -1,0 +1,23 @@
+     <h1>Heading1</h1><!-- headings ranges from h1 to h6 with difference as size. all headings are bold.-->
+    <h2>Heading1</h2>
+    <h3>Heading1</h3>
+    <h4>Heading1</h4>
+    <h5>Heading1</h5>
+    <h6>Heading1</h6>
+
+    <p>Lorem ipsum dolor sit, <br/> <br> amet consectetur adipisicing elit. Optio dolore vel laborum similique quisquam, natus quibusdam illo magnam, ipsum omnis non deleniti cumque hic rerum laudantium id totam sapiente soluta eaque deserunt excepturi nihil! Asperiores facere ab illum magni nostrum pariatur nisi, temporibus quaerat quia velit minima autem amet dicta exercitationem! Eum fugit nisi temporibus tempore possimus quo. Quos fugiat in totam magnam dolorem qui blanditiis fuga maxime hic quidem dicta eius quaerat aut, consequatur debitis modi, similique dolore vel est? Voluptatibus cumque porro, inventore, molestias temporibus explicabo odit alias dignissimos quam quae ipsum distinctio harum, autem vero impedit quia?</p> <!--P tag is used for paragraph and lorem is dummy text for paragraph-->
+    
+    <a href="https://www.amazon.com">click me</a> <!-- anchor tag is used for hyperlinks, href is an attribute with hyper reference link will be given  -->
+    
+    <a href="https://www.google.com">click me(simple)</a>
+    
+    <a href="https://www.google.com" target="_blank">click me (new tab)</a>
+    
+    <a href="mailto:abc@gmail.com">mail me</a>  <!-- anchor tag to send mail by link-->
+    <a href="tel:55858858">call me</a>
+    <!-- anchor link to call number -->
+
+    <a href="./assets/Grade 9 - SA.pdf" download>download pdf</a>
+    <!-- anchor tag to download the files -->
+
+    * there are some tags need to have closing tag  are called as self closing tags or void elements or empty elements. eg: br, hr etc..,
