@@ -15,6 +15,11 @@ goto github.com and create a repository
 
 in vscode, open terminal--> new terminal
 
+git init
+git add .
+git commit -m "message"
+git remote add origin "link"
+git push -u origin main/master
 
 
 
