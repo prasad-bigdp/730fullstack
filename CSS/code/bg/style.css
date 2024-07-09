@@ -1,0 +1,13 @@
+@import url('./October\ Crow.ttf');
+body
+{
+background-image: url('https://images.ctfassets.net/hrltx12pl8hq/01rJn4TormMsGQs1ZRIpzX/16a1cae2440420d0fd0a7a9a006f2dcb/Artboard_Copy_231.jpg?fit=fill&w=600&h=600');
+background-repeat:no-repeat;
+background-position:center center;
+background-size:cover;
+color:white;
+height: 100vh;
+  font-family: 'October\ Crow',fantasy;
+  font-weight: 400;
+  font-style:normal;
+}
