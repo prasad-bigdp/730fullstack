@@ -1,0 +1,7 @@
+how do you measure basic values in CSS are Units
+px- pixels are used to measures the  sizes
+em - enumerated value is value compared to the parent element
+rem  - root enumerated value is value compared to rrot element
+default font size of root element is 16px
+vw- viewport/visible width
+vh- viewport/visible height

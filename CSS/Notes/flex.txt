@@ -1,0 +1,7 @@
+we can use display property to make elements block,inline or inline-block or table or none
+
+but we have respnsive layout options like flexbox
+
+flex is used to arrange child items in single direction flexibly
+
+To do this, we should give display flex to parent

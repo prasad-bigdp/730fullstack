@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+ 
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+}
+.box1{
+   order: 2;
+}
+.box2{
+order: 3;
+}
+.box3{
+    order: 1;
+}
+.box4{
+    order: 4;
+}

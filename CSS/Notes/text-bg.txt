@@ -1,0 +1,27 @@
+background can be given as a color or gradient or image
+background-color is used to assign color to specific element by their selector
+color can be denoted by hexcode,rgb,rgba where a represents alpha ranges from 0.0 to 1.0 and rgb represents red,green,blue ranges from 0 to 255.,
+hsl(hue ranges from 0 to 359, saturation ranges from 0 to 100%, lightness ranges from 0 to 100%),hsla
+
+gradient can be given by background attribute, there are two type of gradients
+linear-gradient(color1,color2) will assign colors from color1 to color2 like a transition, we can also assign direction
+background:linear-gradient(to right,red,yellow)
+radial-gradient(color1,color2) will assign colors from color 1 to color 2 in a circular way
+background:radial-gradient(red,yellow)
+
+background -mage can be added by background-image attribute
+you can position it by background-position
+you can repeat or stop repeating by background-repeat
+you can enlarge or fit to size by background-size
+
+for specific font-families you can use google fonts. there are 5 font families
+serif( stroke at the end of every letter ), sans-serif(no- stroke), monospace(same height letters),cursive (linked/slant letters), fantasy(modern new ways)
+
+
+
+
+
+
+
+
+
