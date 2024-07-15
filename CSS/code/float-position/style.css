@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+/* img{
+    float: right;
+    height: 200px;
+}
+p
+{
+    clear: right;
+} */
+/* arrange the element in a row by display inline,block,fle,float,grid */
+.main{
+    border: 2px solid black;
+    margin: 20px;
+}
+.box{
+    height: 500px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+/* we can set the element position whereevver we want , there are 5 positions available
+static - by default  - it will not have any impact of top,left,right,bottom
+*/
+.box1{
+position: relative;
+top: 60px;
+left: 60px;
+}
+
+
+.box4
+{
+ position: fixed; 
+ right: 0px;
+ bottom: 0px; 
+ border-radius: 50%;
+ text-align: center;
+ height: 50px;
+ width: 50px;
+}
+.box2
+{
+    height: 100px;
+    position: sticky;
+    top: 100px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
