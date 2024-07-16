@@ -1,0 +1,31 @@
+Float is used to make certain element left or right side of anothe elements
+eg: float:left/right
+float will remove the element from normal execution/flow of the document
+
+To clear any element of float beside, you can use 'clear'
+
+Position: using position, you can fix an element whereever you want
+There are 5 positions available
+1. static
+2. absolute
+3. relative
+4. fixed
+5. sticky
+
+static: by default every element will have position 'static' . this position will not have any effect of top,left,right or bottom
+
+absolute: elements with position absolute will move for top,left,right,bottom based on body irrective of its actual flow
+
+relative : elements with position relative will move top,left,right,bottom based on its initial position in its parent
+
+fixed: elements with position fixed will' fix in one position based on any, scolling will not have any effect on these elements
+
+sticky: elements with position sticky will become fixed after specific condition of left,top,right or bottom matched .. i..e.., relative+fixed
+
+
+
+
+
+
+
+
