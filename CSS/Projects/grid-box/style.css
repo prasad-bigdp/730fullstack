@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: grid;
+    place-content:center;
+    height: 100vh;
+}
+.main{
+    height: 50vh;
+    width: 50vw;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    padding: 10px;
+}
+.box{
+    background-color: white; 
+}
+.box1{
+    grid-column:1/4;
+}
+.box2{
+    grid-row:2/4;
+}
+.box3{
+    grid-column:2/4;
+}
+.box6{
+    grid-column:1/4;
+}

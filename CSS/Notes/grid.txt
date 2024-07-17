@@ -1,0 +1,25 @@
+grid is used to maintain items in two dimensional direction (i.e.., rows and columns)
+grid properties should be applied to parent container
+display:grid will initialise the grid
+grid-template-column/grid-template-rows : defines each column width;
+eg: grid-template-columns:200px 300px or 30% 20% 50% or auto auto auto or repeat(3,auto) or 1fr 2fr 1fr
+
+gap: used to create gap between the items
+justify-content: moves the grid in x-axis
+align-items: moves the grid in y-axis
+align-content: moves lines towards each other
+place-items: moves items to different positions
+place-content: moves items towards each other
+
+children properties:
+grid-column-start: starting-column-lines
+grid-column-end: ending-column-lines
+grid-row-start: starting-row-lines
+grid-row-end: ending-row-lines
+grid-row:starting/ending row lines
+grid-column:starting/ending column lines
+grid-area: stating-row/starting-column/ending-row/ending-column
+order: number.. default order is 0
+also grid-area can be defined as a string to all childern and parent can have grid-template-areas
+
+
