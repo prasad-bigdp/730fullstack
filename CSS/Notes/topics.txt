@@ -1,0 +1,14 @@
+CSS
+--------------
+introduction
+Different types of CSS
+Basic Selectors(tag,class,id)
+BOX Model(border,border-radius,margin,padding),
+Background(images,colors,gradients),
+units
+Text
+fonts
+float,position,
+display,flex,grid
+advanced Selectors(pseudo classes,pseudo elements)
+

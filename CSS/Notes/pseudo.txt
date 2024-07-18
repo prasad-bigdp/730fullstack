@@ -1,0 +1,25 @@
+pseudo elements:
+::placeholder
+::before
+::after
+::first-line
+::first-letter
+Pseudo-classes:
+:link
+:active
+:visited
+:hover
+:required
+:optional
+:disabled
+:enabled
+:read-only
+:read-write
+:focus
+:nth-child
+:nth-of-type
+:nth-last-child
+:nth-last-of-type
+:first-child
+:last-child
+:not

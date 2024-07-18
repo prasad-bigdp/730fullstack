@@ -1,0 +1,134 @@
+/* advanced seletors
+div>p /* childern selector
+{
+    background-color: red;
+}
+div p /* descendant selector 
+{
+   background-color: red;
+}
+div+p /* sibiling selector 
+{
+    background-color: greenyellow;
+}
+input[type="text"] /* attribute selector 
+{
+    height: 30px;
+    width: 200px;
+}
+
+/* pseudo classes */
+/* pseudo classes selects the elements based on their state */
+/* they are followed by :: 
+
+input::placeholder
+{
+    font-size: 18px;
+    color: black;
+}
+div p::first-letter
+{
+    font-size: 68px;
+}
+div p::first-line{
+    color: white;
+}
+div p::before{
+    content:open-quote;
+}
+div p::after{
+    content: close-quote;
+}
+
+/* pseudo elements are similar to pseudo classes , they use : 
+input:required
+{
+    border: 1px solid red;
+}
+input:optional
+{
+    border: 2px solid green;
+}
+input:disabled
+{
+background-color: grey;
+}
+input:enabled{
+    background-color: yellow;
+}
+input:read-only
+{
+    height: 100px;
+}
+input:read-write{
+    width: 300px;
+}
+input:focus{
+    border: 3px solid orange;
+}
+a{
+    font-size: 18px;
+}
+a:link{
+    color: green;
+}
+a:active
+{
+    color: yellow;
+}
+a:visited
+{
+    color: black;
+}
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+a:hover{
+    font-size: 36px;
+    text-decoration: none;
+}
+.box:hover{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+/* parent child */
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    color: blue;
+}
+.parent>div:nth-child(3){
+    background-color: black;
+}
+.parent>div:nth-last-of-type(1)
+{
+    background-color: black;
+}
+.parent>.child:not(p){
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
