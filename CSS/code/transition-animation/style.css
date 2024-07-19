@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: red;
+   /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+}
+.box1{
+    animation: prasad 5s ease 1s infinite alternate;
+}
+.box2{
+    animation: prasad 10s ease 2s infinite alternate;
+}
+.box3{
+    animation: prasad 8s ease 3s infinite alternate;
+}
+.box4{
+    animation: prasad 6s ease 4s infinite alternate;
+}
+.box5{
+    animation: prasad 5s ease 5s infinite alternate;
+}
+@keyframes prasad {
+   0%{
+    top: 0px;
+    left: 0px;
+   }
+   20%{
+     top: 100px;
+     left: 200px;
+     background-color: blue;
+     border-radius: 50%;
+   }
+   40%{
+  top: 500px;
+     left: 100px;
+     background-color: rgb(38, 197, 147);
+   }
+   80%{
+       top: 500px;
+     left: 500px;
+     background-color: rgb(218, 207, 54);
+   }
+   100%{
+  top: 100%;
+     left: 100%;
+     background-color: rgb(25, 156, 189);
+   }
+}
+/* transition : changing from one state to another state */
+/* .box:hover{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+     
+       clip-path: polygon(0% 0%,0% 100%,100% 100%,100% 0%);
+    /* transform: scale(1.5); */
+  

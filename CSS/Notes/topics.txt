@@ -11,4 +11,5 @@ fonts
 float,position,
 display,flex,grid
 advanced Selectors(pseudo classes,pseudo elements)
+animations and media queries
 
