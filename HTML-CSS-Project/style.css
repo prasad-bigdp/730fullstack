@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Cambo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  --primary-color:rgb(0, 179, 250);
+}
+header
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    position: stciky;
+    top: 0px;
+}
+.logo{
+    font-size: 42px;
+}
+.logo span{
+    color: var(--primary-color);
+}
+.menu ul{
+  display: flex;
+  gap: 20px;
+  list-style:none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+section{
+    padding: 100px 100px;
+
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-context{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#banner-context h1{
+    font-size: 40px;
+}
+#banner-context h1 span{
+    color: var(--primary-color);
+}
+#banner-context p{
+    font-size: 20px;
+    text-align: left;
+    line-height: 24px;
+}
+#banner-context #buttons{
+    display: flex;
+    gap: 10px;
+}
+#buttons button:nth-child(1)
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+#buttons button:nth-child(2){
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
+#buttons button:nth-child(2):hover{
+    background-color: var(--primary-color);
+}
+#buttons button:nth-child(2) a{
+    color: black;
+}
+.heading{
+   text-align: center;
+   font-size: 36px;
+   text-decoration: wavy var(--primary-color);
+   text-decoration-line: underline;
+}
+.aboutme{
+      font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+#stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.stat{
+    padding: 30px;
+    border-radius: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 5px 5px rgb(175, 169, 169);
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+}
+.project img{
+    height: 150px;
+    object-fit: cover;
+}
+.project button{
+    background-color: black;
+    width: max-content;
+    border-radius: 15px;
+    padding: 10px;
+}
+.project button:hover
+{
+    background-color: var(--primary-color);
+}
+#Contact{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+.contactForm{
+    width: 30vw;
+}
+.contactForm input,.contactForm textarea{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    resize: none;
+}
+input::placeholder,textarea::placeholder{
+    font-size: 20px;
+    color: black;
+}
+.contactForm button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.contactForm button:hover{
+    background-color: var(--primary-color);
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+}
+/* media queries */
+@media(max-width:480px){
+header{
+    flex-direction: column;
+}
+.menu ul{
+    flex-direction: column;
+}
+#banner{
+    
+}
+#projects{
+    grid-template-columns: repeat(1,1fr);
+}
+}
+@media(max-width:768px){
+header{
+    flex-direction: column;
+}
+.menu ul{
+    flex-direction: column;
+}
+#banner{
+    
+}
+#projects{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media(max-width:996px){
+header{
+    flex-direction: column;
+}
+.menu ul{
+    flex-direction: column;
+}
+#banner{
+    
+}
+#projects{
+    grid-template-columns: repeat(2,1fr);
+}
+}
