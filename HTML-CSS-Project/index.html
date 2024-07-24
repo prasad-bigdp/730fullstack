@@ -6,10 +6,11 @@
     <title>Portfolio - Main Project</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-      <div class="logo">PRA<span>SAD</span></div>
+      <div class="logo animate__animated animate__bounce animate__infinite">PRA<span>SAD</span></div>
       <nav class="menu">
         <ul>
             <li><a href="#banner">Home</a></li>
@@ -30,7 +31,9 @@
             </div>
         </div>
         <div id="banner-image">
-            <img src="./assets/developer.jpg" alt="banner-image" height="600">
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/0d783392-9482-4901-811c-7cffabec0ceb/XZ66Yqp2uu.json" background="transparent" speed="1" style="width: 400px; height: 600px;" loop autoplay></dotlottie-player>
         </div>
       </section>
       <h2 class="heading">About me</h2>
@@ -54,10 +57,11 @@
       <h2 class="heading">Projects</h2>
       <section id="projects">
         <div class="project">
-            <img src="./assets/project1.png" alt="Project1-ecommerce">
+              <img src="./assets/project1.png" alt="Project1-ecommerce">
             <h3>Responsible Ecommerce Website</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus quasi omnis nisi quas quos voluptatum accusantium fugiat, assumenda labore quae.</p>
             <button><a href="https://comfy-torte-27270b.netlify.app/" target="_blank">see Details</a></button>
+           
         </div>
         <div class="project">
             <img src="./assets/project1.png" alt="Project1-ecommerce">

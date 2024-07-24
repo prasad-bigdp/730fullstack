@@ -4,6 +4,8 @@
     padding: 0px;
     margin: 0px;
     scroll-behavior: smooth;
+        scrollbar-color: var(--primary-color);
+
 }
 body{
     font-family: "Cambo", serif;
@@ -11,6 +13,7 @@ body{
   font-style: normal;
   font-size: 16px;
   --primary-color:rgb(0, 179, 250);
+
 }
 header
 {
@@ -52,6 +55,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    animation: reveal 2s linear;
 }
 #banner-context h1{
     font-size: 40px;
@@ -107,7 +111,7 @@ section{
 .stat{
     padding: 30px;
     border-radius: 15px;
-    width: 30%;
+    width: calc(100%/3);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -117,6 +121,8 @@ section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
+    perspective: 800px;
+    perspective-origin: center;
 }
 .project{
     display: flex;
@@ -125,6 +131,15 @@ section{
     border: 1px solid black;
     border-radius: 15px;
     padding: 30px;
+    z-index: 800;
+    transition: all 2s ease;
+    backface-visibility: hidden;
+}
+
+
+.project:hover{
+    transform: rotate3d(0,-1,0,180deg);
+    transform-style: preserve-3d;
 }
 .project img{
     height: 150px;
@@ -175,6 +190,16 @@ footer{
     font-size: 20px;
     text-align: center;
     padding: 20px 0px;
+}
+@keyframes reveal{
+    0%{
+        position: relative;
+        left: -2000px;
+    }
+    100%{
+        position: relative;
+        left: 0px;
+    }
 }
 /* media queries */
 @media(max-width:480px){
