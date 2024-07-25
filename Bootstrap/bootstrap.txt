@@ -1,0 +1,17 @@
+Bootstrap is a Component library which can be used for responsive user design
+Bootstrap current version is Bootstrap 5.
+To Understand Bootstrap Well, 
+you need to understand 3 concepts
+1. Bootstrap colors
+2. Bootstrap Break Points
+3. Bootstrap Components
+
+Get Started with Bootstrap:
+goto getBootstrap.com ---> docs-->get started/introduction
+
+copy cdn link of css and js and paste in your html page
+
+1. Bootstrap colors:
+Bootstrap uses 8 colors
+primary - blue
+seconadray- gray
