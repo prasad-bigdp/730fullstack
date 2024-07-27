@@ -1,0 +1,33 @@
+.heading {
+	animation: animation1 1s ease infinite;
+}
+body {
+	perspective: 800px;
+}
+.abc {
+	width: 500px;
+	height: 200px;
+	background-color: black;
+	color: white;
+	transition: all 3s ease;
+}
+.abc:hover {
+	background-color: brown;
+	transform-style: preserve-3d;
+	transform: rotateY(180deg);
+}
+
+@keyframes animation1 {
+	0% {
+		position: relative;
+		bottom: 0px;
+	}
+	50% {
+		position: relative;
+		bottom: 20px;
+	}
+	100% {
+		position: relative;
+		bottom: 0px;
+	}
+}
