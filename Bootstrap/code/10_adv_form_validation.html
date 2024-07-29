@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Validation using Bootstrap</title>
+
+		<!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+	</head>
+	<body>
+		<!-- This is a comment. It won't be displayed in the web page. -->
+
+		<div class="container">
+			<!-- .container creates a fixed-width container with centered content -->
+
+			<h1>Form Validation using Bootstrap</h1>
+
+			<!-- Bootstrap form with validation -->
+			<form
+				id="myForm"
+				class="needs-validation"
+				novalidate>
+				<!-- .needs-validation class enables Bootstrap's form validation -->
+
+				<!-- Form group for the name field -->
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input
+						type="text"
+						class="form-control"
+						id="name"
+						placeholder="Enter your name"
+						required />
+					<!-- 'required' attribute enforces field validation -->
+					<div class="valid-feedback">Valid.</div>
+					<!-- Feedback message for valid input -->
+					<div class="invalid-feedback">Please enter your name.</div>
+					<!-- Feedback message for invalid input -->
+				</div>
+
+				<!-- Form group for the email field -->
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input
+						type="email"
+						class="form-control"
+						id="email"
+						placeholder="Enter your email"
+						required />
+					<div class="valid-feedback">Valid.</div>
+					<div class="invalid-feedback">
+						Please enter a valid email address.
+					</div>
+				</div>
+
+				<!-- Form group for the password field -->
+				<div class="form-group">
+					<label for="password">Password:</label>
+					<input
+						type="password"
+						class="form-control"
+						id="password"
+						placeholder="Enter your password"
+						required />
+					<div class="valid-feedback">Valid.</div>
+					<div class="invalid-feedback">Please enter a password.</div>
+				</div>
+
+				<!-- Submit button -->
+				<button
+					type="submit"
+					class="btn btn-primary">
+					Submit
+				</button>
+			</form>
+		</div>
+
+		<!-- Include Bootstrap JavaScript from a CDN (for features like form validation) -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+		<!-- JavaScript for custom form validation -->
+		<script>
+			// Prevent the form from submitting if it's invalid
+			document
+				.getElementById("myForm")
+				.addEventListener("submit", function (event) {
+					if (!this.checkValidity()) {
+						event.preventDefault()
+						event.stopPropagation()
+					}
+					this.classList.add("was-validated")
+				})
+		</script>
+	</body>
+</html>

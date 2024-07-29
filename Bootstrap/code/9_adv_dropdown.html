@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working with Bootstrap JavaScript Plugins</title>
+
+    <!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- This is a comment. It won't be displayed in the web page. -->
+
+    <div class="container">
+        <!-- .container creates a fixed-width container with centered content -->
+
+        <h1>Working with Bootstrap JavaScript Plugins</h1>
+
+        <h2>Dropdowns</h2>
+
+        <!-- Bootstrap dropdown button -->
+        <div class="dropdown">
+            <!-- .dropdown creates a dropdown component -->
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown Button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <!-- .dropdown-menu creates the dropdown menu -->
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+                <a class="dropdown-item" href="#">Option 3</a>
+            </div>
+        </div>
+
+        <h2>Modals</h2>
+
+        <!-- Bootstrap button to trigger a modal -->
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+            Open Modal
+        </button>
+
+        <!-- Bootstrap modal -->
+        <div class="modal fade" id="myModal">
+            <!-- .modal creates a modal dialog -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        This is the modal content.
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JavaScript from a CDN (for features like dropdowns and modals) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

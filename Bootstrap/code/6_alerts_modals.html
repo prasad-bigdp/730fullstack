@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alerts, Badges, Modals, and Popovers with Bootstrap</title>
+
+    <!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- This is a comment. It won't be displayed in the web page. -->
+
+    <div class="container">
+        <!-- .container creates a fixed-width container with centered content -->
+
+        <h1>Alerts, Badges, Modals, and Popovers with Bootstrap</h1>
+
+        <h2>Alerts, Badges, and Labels</h2>
+
+        <!-- Bootstrap alerts -->
+        <div class="alert alert-success" role="alert">
+            <!-- .alert creates a colored alert box -->
+            <strong>Success!</strong> This is a success alert.
+        </div>
+
+        <!-- Bootstrap badges -->
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-danger">Danger</span>
+
+        <!-- Bootstrap labels -->
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-dark">Dark</span>
+
+        <h2>Modals and Popovers</h2>
+
+        <!-- Bootstrap button to trigger a modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Open Modal
+        </button>
+
+        <!-- Bootstrap modal -->
+        <div class="modal fade" id="myModal">
+            <!-- .modal creates a modal dialog -->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Title</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p>This is the modal content.</p>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap button to trigger a popover -->
+        <button type="button" class="btn btn-danger" data-toggle="popover" title="Popover Title" data-content="This is a popover content.">
+            Open Popover
+        </button>
+    </div>
+
+    <!-- Include Bootstrap JavaScript from a CDN (for features like modals and popovers) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Initialize Bootstrap popovers -->
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+</html>

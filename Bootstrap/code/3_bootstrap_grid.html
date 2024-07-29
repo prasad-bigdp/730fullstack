@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Using Bootstrap Grid System</title>
+
+    <!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- This is a comment. It won't be displayed in the web page. -->
+
+    <div class="container">
+        <!-- .container creates a fixed-width container with centered content -->
+
+        <h1>Using Bootstrap Grid System</h1>
+
+        <!-- .row defines a horizontal row to contain columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <!-- .col-md-4 creates a column that spans 4 grid units on medium-sized screens and larger -->
+                <h2>Column 1</h2>
+                <p>This is the first column.</p>
+            </div>
+
+            <div class="col-md-4">
+                <!-- .col-md-4 creates another column -->
+                <h2>Column 2</h2>
+                <p>This is the second column.</p>
+            </div>
+
+            <div class="col-md-4">
+                <!-- .col-md-4 creates a third column -->
+                <h2>Column 3</h2>
+                <p>This is the third column.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <!-- .col-md-6 creates a column that spans 6 grid units on medium-sized screens and larger -->
+                <h2>Column 1</h2>
+                <p>This column spans half the width on medium-sized screens and larger.</p>
+            </div>
+
+            <div class="col-md-6">
+                <!-- .col-md-6 creates another column that spans the remaining half -->
+                <h2>Column 2</h2>
+                <p>This column also spans half the width on medium-sized screens and larger.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <!-- .col-md-8 creates a column that spans 8 grid units -->
+                <!-- .offset-md-2 adds a left margin of 2 grid units -->
+                <h2>Centered Column</h2>
+                <p>This column is centered and spans 8 grid units on medium-sized screens and larger.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <!-- .col-md-6 creates a column -->
+                <h2>Parent Column</h2>
+                <p>This is the parent column.</p>
+                <div class="row">
+                    <!-- Nested .row for nesting columns -->
+                    <div class="col-md-6">
+                        <!-- .col-md-6 creates a nested column within the parent column -->
+                        <h3>Nested Column 1</h3>
+                        <p>This is a nested column.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Another nested column -->
+                        <h3>Nested Column 2</h3>
+                        <p>This is another nested column.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JavaScript from a CDN (for features like collapsing navbar) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap and Accessibility</title>
+
+    <!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- This is a comment. It won't be displayed in the web page. -->
+
+    <div class="container">
+        <!-- .container creates a fixed-width container with centered content -->
+
+        <h1>Bootstrap and Accessibility</h1>
+
+        <p>
+            Bootstrap is committed to making web applications accessible to all users,
+            including those with disabilities. It provides several features and best practices
+            for creating accessible web content.
+        </p>
+
+        <h2>ARIA Roles and Attributes</h2>
+
+        <!-- Bootstrap uses ARIA roles and attributes for accessibility -->
+        <button class="btn btn-primary" role="button" aria-label="Click Me">
+            ARIA Role and Attribute
+        </button>
+
+        <h2>Focus Styles</h2>
+
+        <!-- Bootstrap provides focus styles for keyboard navigation -->
+        <a href="#" class="btn btn-secondary">Link with Focus Style</a>
+
+        <h2>Form Controls</h2>
+
+        <!-- Bootstrap styles form controls for accessibility -->
+        <div class="form-group">
+            <label for="inputField">Input Field:</label>
+            <input type="text" class="form-control" id="inputField" aria-describedby="inputHelp">
+            <small id="inputHelp" class="form-text text-muted">A helpful hint for the input field.</small>
+        </div>
+
+        <h2>Keyboard Navigation</h2>
+
+        <!-- Bootstrap ensures keyboard navigation is intuitive -->
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Keyboard Navigation
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Option 1</a>
+                <a class="dropdown-item" href="#">Option 2</a>
+                <a class="dropdown-item" href="#">Option 3</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JavaScript from a CDN (for features used by Bootstrap) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
