@@ -1,0 +1,46 @@
+What is JS?
+Javascript is a JIT(Just in Time) compiler Programming language used for the Web. It is used for almost all of the intenet and it is used mainly for functionality of websites.
+
+Eric Moch developed JS and initially named as LiveScipt. Because of popular languag ejava, livescript changed as javascript. it started from 1995 and maintained by EcmaScript
+
+JS runs on Browsers and Every Browser has JS engine like Google- v8, Firefox- spidermonkey, edge-chakra
+
+How do we link JS to our HTML?
+There are two ways
+1. internal: we can use script tag to include JS anywhere in HTMl. its called as internal Javascript
+2. External: we can also use script tag to include external by having src with path. Js file have extension .js
+
+it is always recommanded to keep JS at the end of the body
+
+How to do comments in JS?
+JS have two type of comments.
+1. single line. comments are followed by  //
+2. multi line: comments are followed by /*    and ends with  */
+
+what are developer Tools?
+Every Browser have some tools to inspect the code which are called developer tools. one of the developer tool is console. To debug or check the flow of Javascript , we use console
+
+what is Client-server model?
+Client request the server and server responds with HTml,css and Js and then client renders HTMl,CSS and js .
+client is browser. js is client side programming langugae. it can also be used for server side like node js
+
+what are variables and different variables in JS?
+varaiables are used to store values that can change. it can be named anything and we use keywords like let,var,const to create variables . they are also called identifiers
+
+what are the differences between var,let,const?
+ --> var is a function scoped variable, it can redeclare,reassign variables and hoisting is also possible here
+ --> let and const are introduced in ES6(ES2015). let and const are block scoped variables , let can  reassign but const cannot reassign. Hoisting is not possible here
+
+ Javascript is Single threaded, synchronous Programming language
+
+ Single threaded - only one task at a time
+ synchronous - line by line
+
+
+
+
+
+
+
+
+
