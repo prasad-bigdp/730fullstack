@@ -1,0 +1,12 @@
+Data types are used to define the type of Data.
+JS is dynamically typed Language. variables won't have a constant type.
+There are two categories of data types.
+1. Primitive: 
+  Primitve data types refers always values.
+   popular primitve datatypes of js are 
+     a. number
+     b. string
+     c. boolean
+     d. undefined
+     e. null
+2. Non-Primitive

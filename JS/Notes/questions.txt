@@ -1,0 +1,3 @@
+1. what is the difference between var, let,const?
+2. what is Hoisting ?
+3. what is Execution content and call stack?
