@@ -1,3 +1,5 @@
 1. what is the difference between var, let,const?
 2. what is Hoisting ?
 3. what is Execution content and call stack?
+4. questions regarding string/math functions(mostly program questing)?
+5. what is difference between undefined and null?

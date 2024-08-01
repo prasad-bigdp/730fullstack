@@ -4,9 +4,36 @@ There are two categories of data types.
 1. Primitive: 
   Primitve data types refers always values.
    popular primitve datatypes of js are 
-     a. number
-     b. string
-     c. boolean
-     d. undefined
-     e. null
+     a. number:
+     In Js any numerical value will be number only. To get different operations on number you can use Math functions
+     It can use some default fns:
+     toFixed(no_of_decimal_digits)
+     toPrecision(no_of_totalDigits)
+     tostring(base)- converts decimal into another base
+     we can also use Math functions:
+     Math.max,Math.min,Math.floor,Math.ceil,Math.round,Math.random(generates random value from 0.0-1.0),Math.sqrt,Math.cbrt,Math.pow etc..,
+     b. string: strings are nothing but an array of characters
+     eg: let x= "prasad", x stores "prasad" where eah character with index starting from 0,
+
+     In JS strings '' or "" are similar. There are three ways you can represent strings.
+     single quotation('raj'), double quotation(""), backticks(`raj`)
+     based on sitiuation, you can use single/double quotations
+     using backticks is template literal which is also introduced in ES6 and it can used to print values withput breaking flow of string
+
+     strings also have some default library methods like 
+     length,
+     toUppercase,
+     toLowerCase,
+     indexOf,lastIndexOf
+     charAt,
+     split,
+     replace,
+     trim,
+     startsWith,
+     endsWith,
+     slice
+     In JS strings are immutable , you cannot change/alter strings
+     c. boolean : boolean is used to store true/false. true also considers as 1 and false is 0
+     d. undefined: undefined represents accidental absence of value
+     e. null: null represents complete absence of value
 2. Non-Primitive
