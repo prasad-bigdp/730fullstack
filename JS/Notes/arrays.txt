@@ -1,0 +1,5 @@
+Array is used to store multiple items/ colletion of several elements
+Array stores the values based on index. always index starts from zero
+let arr=[5,6,7,8], arrays will be embraed by square brackets
+arr[0] =5, arr[1]=6,arr[7],arr[3]=8,arr[4]=undefined
+arrays have some default methods to perform several operations

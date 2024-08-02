@@ -36,4 +36,12 @@ There are two categories of data types.
      c. boolean : boolean is used to store true/false. true also considers as 1 and false is 0
      d. undefined: undefined represents accidental absence of value
      e. null: null represents complete absence of value
-2. Non-Primitive
+2. Non-Primitive:
+  what is the major differenes vetween primitve and non-primitve?
+  Primitive data types consider values, non-primitve data types cares references(addresses)
+  Primitve data types are immutable and non primitve data types are mutable
+  popular non-primitive data types are
+  i. arrays
+  ii. objects
+  iii. functions
+ 
