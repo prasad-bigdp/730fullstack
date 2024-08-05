@@ -1,0 +1,24 @@
+In Arrays we can use so many methods, few of them are
+array.forEach(callback) --> the callback function takes three arguments element,index, reference array
+but forEach is used to iterate through out the array but it cannot retun any values
+To iterate through the array and return the values , we use map
+map is used to return a certain values for each and every element of the array.
+arr.map(callback) ---> the callback takes three arguments element,index,reference array
+arr.filter(callback)--> similar to map but it returns only the values for whom the condition is true
+arr.reduce(callback,initial value)--> the callback takes two arguments, initial(prev) and curr, each time the prev value will be updated
+arr.some(callback) ---> return true when any one of the element returns true for callback.
+arr.every(callback) ---> returns true when all of the elements returns true for callback
+
+Objects: Objects are used to properties in Key-value Pair
+let obj={
+    name="xyz",
+    age:25,
+    walk:function(){
+        console.log("walking")
+    }
+}
+to access any property in obj, we can do indexing or dot notation i.e..,
+ obj['name] or obj.name
+
+ Object.values(obj) --> returns set of values in obj
+ Object.keys(obj) --> returns set of keys in obj
