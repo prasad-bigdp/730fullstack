@@ -1,0 +1,67 @@
+Control Statements: Control statements are used to control the flow of DOM element or to change the behaviour of DOM elements based on a condition
+popular control statements are if and switch
+ 1. if...........
+   //simple if
+   let a = 36;
+   if (a > 35)
+   {
+    console.log("success")
+   }
+   //if---else
+   if (a > 35) {
+	console.log("success")
+  }
+  else
+  {
+    console.log("failure")
+  }
+  //nested--if
+  if (a > 20)
+   {
+    if (a < 50)
+    {
+        console.log("good")
+    }
+    else
+    {
+        console.log("bad")
+    }
+   }
+   //if-else-if
+   let role = "admin";
+   if (role == "admin")
+   {
+    console.log("welcome to admin")
+   }
+   else if (role == "teacher")
+   { 
+     console.log("welcome to teacher")
+   }
+   else if (role == "student")
+   {
+    console.log("welcome to student")
+   }
+   else
+   {
+    console.log("welcome to guest")
+   }
+
+2. switch:
+switch is used to switch between multiple cases using a stmnt/ a value;
+switch (role)
+{
+    case "admin": console.log("welcome to admin"); break;
+    case "teacher": console.log("welcome to teacher"); break;
+    case "student": console.log("welcome to student"); break;
+    default: console.log("enter valid role");       
+}
+
+
+Loops: loops are used to iterate the values/statements until the condition is false. there are primarily teo types of loops are there:
+entry control and exit control
+Entry Control Loops:
+ Entry Control loops checks the condition at the starting/Entry of the loop
+ Eg: while,for
+Exit Control Loops:
+ Exit Control loops checks the condition at the ending/Exit of the loop
+ Eg:do-while
