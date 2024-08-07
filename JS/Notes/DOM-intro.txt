@@ -1,0 +1,15 @@
+Document is an object which contains model of complete html and css. document object is stored inside the window object.
+In JS, we can access HTML elements using document object
+
+To learn Document Object Model, we need to learn 4 things
+1. DOM selection
+2. Events
+3. DOM Manipulation
+4. DOM Creation
+
+1. DOM selection: we can select an HTML element in the DOM using 5 ways
+  i.getElementById: select element by Id will give only one element since id is always unique
+  ii.getElementsByClassName:selecting elements using class name results an array(HTML collection)
+  iii.getElementsByTagName:selecting elements using tag name results an array(HTML collection)
+  iv.querySelector
+  v.querySelectorAll
