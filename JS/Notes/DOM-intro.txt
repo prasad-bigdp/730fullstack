@@ -11,5 +11,13 @@ To learn Document Object Model, we need to learn 4 things
   i.getElementById: select element by Id will give only one element since id is always unique
   ii.getElementsByClassName:selecting elements using class name results an array(HTML collection)
   iii.getElementsByTagName:selecting elements using tag name results an array(HTML collection)
-  iv.querySelector
-  v.querySelectorAll
+  iv.querySelector: querySelector selects an element based on a css query but it selects only first element
+  v.querySelectorAll:querySelector selects an element based on a css query and it selects all elements
+
+2. DOM Manipulation: you can manipulate DOM elements Text,properties, style and even class also
+
+ i.textContent: textContent is used to access the text inside the element
+ ii. innerText: it is also used to access the text inside the element but it considers css
+ if visibility : hidden it cannot see the elements
+ iii. innerHTML : it reads the text as html code and executes it
+ iv. value : it access values from HTML inputs

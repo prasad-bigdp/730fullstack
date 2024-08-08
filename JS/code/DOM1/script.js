@@ -1,7 +1,15 @@
 console.log(document)
-let x = document.getElementsByTagName('p') // selected paragraphs using tag name
-let y = document.getElementsByClassName('para')
-let z = document.getElementById('pa')
-console.log(z.textContent)
-console.log(y[0].textContent)
-console.log(x[1].textContent)
+let x1 = document.getElementsByTagName('p');
+let x2 = document.getElementsByClassName('para')
+let x3 = document.getElementById('pa') 
+let x4 = document.querySelector('p')
+let x5= document.querySelectorAll('p')
+console.log(x1[0])
+console.log(x2[0])
+console.log(x3)
+console.log(x4)
+console.log(x5)
+function change ()
+{
+    x3.textContent = " Welcome World"
+}
