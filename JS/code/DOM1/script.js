@@ -11,5 +11,10 @@ console.log(x4)
 console.log(x5)
 function change ()
 {
-    x3.textContent = " Welcome World"
+    console.log(x3.innerText)
+   // x3.textContent = " Welcome World"
+    // x3.innerText= " Welcome World "
+    x3.innerHTML = `<b>Good bye</b>`
+    //x3.style.backgroundColor = 'blue'
+    x3.classList.toggle('x')
 }

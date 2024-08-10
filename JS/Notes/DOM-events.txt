@@ -1,0 +1,26 @@
+DOM manipulation can be using different events. events are used to trigger some action.
+There are two ways of representing events in JS
+ i.event handlers: event handlers are mentioned in HTML and it may not be effective way
+
+ <button onclick="fun()">click me</button>
+ ii. event listeners: event listners are mentioned in JS and it is effective way since JS have full code with control
+
+ const button = document.getElementById('btn');
+button.addEventListener('click', fun)
+function fun ()
+{
+    alert("hello")
+}
+There are different types of events
+1. mouse events: mouseOver,mouseOut, click,dblClick
+2. keyboard events: key press,key release,enter etc..,
+3. window events: load etc..
+4. input events: input,change,select etc..,
+
+Event Propagation: Events travels in a partcular direction. The way they propogation can be defined as two ways
+ i. Bubbling: By default events follow Bubbling. it means executing same events from innermost element to outermost element. i.e., triggering of child 'click' event automatically triggers parent 'click' event
+ ii. capturing: In capturing events propagate from outermost to innermost. to make it happen, we need to mention thirs argument of addEventListener to be true
+
+ Event Delegation:Event Delegation is basically a pattern to handle events efficiently. Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the .target property of the event object.
+
+

@@ -1,0 +1,2 @@
+you can create an element using document.createElement('element')
+you can add that element usint append/appendChild

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Propagation</title>
+</head>
+<body>
+    <div id="gp" style="height: 400px; width: 400px; border: 2px solid black;">
+        <div id="p" style="height: 300px; width: 300px; border: 2px solid black;">
+            <div id="c" style="height: 200px; width: 200px; border: 2px solid black;">
+                <button id="btn">click me</button>
+            </div>
+        </div>
+    </div>
+    <input type="text" id="inp">
+    <!-- event Delegation -->
+     <div id="buttons">
+        <button>btn1</button>
+        <button>btn2</button>
+        <button>btn3</button>
+        <button>btn4</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

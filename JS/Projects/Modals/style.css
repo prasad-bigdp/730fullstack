@@ -1,0 +1,27 @@
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    box-shadow: 5px 5px black;
+    background-color: azure;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+padding: 50px;
+transition: all 3s ease;
+}
+.bg-overlay{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.3);
+    z-index:-1;
+    display: none;
+}
+.none{
+    display: none;
+}
+.modal button{
+    width: max-content;
+
+}

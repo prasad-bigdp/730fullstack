@@ -21,3 +21,5 @@ To learn Document Object Model, we need to learn 4 things
  if visibility : hidden it cannot see the elements
  iii. innerHTML : it reads the text as html code and executes it
  iv. value : it access values from HTML inputs
+ v. classList.add()/remove()/toggle(): we can add class names/ remove class names/ toggle them
+ vi.style: we can add any style use .style.proopertyname to the selector

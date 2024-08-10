@@ -1,0 +1,14 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.movie img{
+    height: 200px;
+    width: 200px;
+}
+.movie{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    
+}
