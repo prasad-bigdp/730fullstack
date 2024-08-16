@@ -1,0 +1,25 @@
+JS is synchronous and single threaded language but there is possibility of async in Javascript
+Async JS:
+Let's take some kind of timers. There are timers avaialable in Browser.
+ -- setTimeOut(fn,time in milli seconds): it runs the fn after specific time
+ -- setInteval(fn, time in milli seconds): it runs the function after specific time and repeats for every interval of specific time
+ -- ToClearOut timeout we use clearTimeOut(timeout obj)
+ -- ToClearOut interval , we use clearInterval(interval obj)
+
+ Promises:
+  The Probelm with sychronous logic is it can be too nested like callback hell
+  To avoid it we use Promises.Promise is an object which represents an official eventual completion of asynchronous operation. promises may or maynot get resolved
+
+  --- Every asynchronous function returns promises
+  --- promise is like function assuring that it will run in future
+  --- promise may get resolved(.then ) or may get rejected(.catch)
+
+API(Application Programming Interface)
+
+
+
+
+
+
+
+
