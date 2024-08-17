@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: azure;
+}
+#main{
+    width: 30vw;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.product{
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+}
+.product img{
+    height: 200px;
+    width: 200px;
+
+}
