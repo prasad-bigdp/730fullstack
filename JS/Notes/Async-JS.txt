@@ -15,8 +15,10 @@ Let's take some kind of timers. There are timers avaialable in Browser.
   --- promise may get resolved(.then ) or may get rejected(.catch)
 
 API(Application Programming Interface)
+API's are used to transfor the data through endpoint in JSON format
 
-
+Is there a way to convert asynchronous into synchronous?
+usually, asynchronous functions returns promises and these promises will get resolve later, but we make the program wait by using 'async-await'
 
 
 
