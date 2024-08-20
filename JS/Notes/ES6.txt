@@ -1,0 +1,48 @@
+Ecmascript: ecmascript maintains the version for scripting languages
+ES13 is the latest version and important version is ES6
+ES6 released in 2015, also known as ES2015 released so many features for JS. some of them are
+i. arrow functions
+ii. let and const
+iii. template literals
+iv. OOPS(objects,classes)
+v. rest and spread
+vi. destructuring
+vii. modules etc..,
+
+i. arrow functions:
+function display (a)
+{
+    console.log("hello world"+a)
+}
+const display2 = (a) =>
+{
+    console.log("hello world"+a)
+}
+
+ii. template literals:
+this is a way to combine data with strings without breaking the strings
+
+let a = 50, b = 55;
+console.log("the sum of " + a + " and " + b + "  is " + (a + b))
+console.log(`the sum of ${a} and ${b} is ${a + b}`)
+
+iii. let and const:
+console.log(k) // undefined
+var k = 25;
+let c = 44;
+c = 45; // let cannot redeclare but can reassign
+const d = 85 // const cannot reassign
+// let and const can't be used before initialization
+
+let and const are block scoped variables and var is a function scoped variables
+
+iv. OOP(object oriented programming):
+Every physical entity with certain properties is object and the collection of object is class
+
+let emp1 = {
+    name:"raj",
+    age:55,
+    salary:20000
+}
+
+
