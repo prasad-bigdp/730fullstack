@@ -44,5 +44,70 @@ let emp1 = {
     age:55,
     salary:20000
 }
+ for Eg: Banana is an object,Mango is an object
+ Fruit is a class - color,taste,shape
+class Fruit
+{
+    name; color; taste;
+    constructor(n,c,t)
+    {
+        this.name = n;
+        this.color = c;
+        this.taste = t;
+    }
+}
+class ABC extends Fruit
+{
+    speed;
+    constructor(n, c, t, s)
+    {
+        super(n, c, t);
+        this.speed = s;
+    }
+
+}
+One class can get properties from another class called as inheritance
+
+v. rest and spread:
+In JS, rest operator is denoted by three dots (...)
+spread operator is denoted by three dots (...)
+Rest operator is used to take the rest of elements
+ as an array
+
+ function sum (a,...b) // rest operator
+{
+    console.log(a, b);
+    let newArr = [5, 2, ...b, 5]; // spread operatot
+    console.log(newArr) // [5,2,2,3,4,5]
+}
+sum(1,2,3,4)
+
+vi. destructuring: you can destructure an array or an object
+//destructuring
+let arr = ["raj","prasad"];
+const [p,q]= arr
+console.log(arr[1], p)
+let obj2 = {
+    name: "vani",
+    age:27
+}
+const {name,age}= obj2
+console.log(name, age);
+
+let emp = {
+    name: "prasad",
+    salry: 80000,
+    age:43
+}
+const {salry} = emp
+console.log(emp.salry, salry)
+
+vii. modules: module systems are used to export and import data/methods from one js file to another js file.
+There are different ways like require js , common js
+but es6 brings a new module system called ES6 module system
+
+
+
+
 
 
