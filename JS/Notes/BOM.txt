@@ -1,0 +1,1 @@
+Browser Object Model: whole Browser JS engine of any web page is mantained by one object - window

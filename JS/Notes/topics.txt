@@ -27,7 +27,7 @@ Advanced:
   callback hell, promise chaining
   async await,error handling
   axios
-  ajax
+  ajax(Asynchronous Javascript - timers,fetch,promises)
 Others
 ------
   classes
@@ -35,6 +35,7 @@ Others
   Higher order functions
   ES6 fetaures
   Modules
+  BOM
   libraries
 
 Main Project
