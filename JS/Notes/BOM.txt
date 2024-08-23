@@ -1,1 +1,10 @@
 Browser Object Model: whole Browser JS engine of any web page is mantained by one object - window
+
+// window.location -- current web address details
+// window.navigator.geolocation -- API of current latitude and longitude
+// window.navigator.mediaDevices -- video and audio
+// window.history -- can move previous or forward
+// window.caches- contains cache memory
+// can store memore using local storage or session storage
+local storage - permanant memoryin Browser
+session storage - stored until u close the browser

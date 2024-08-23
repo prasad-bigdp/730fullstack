@@ -1,0 +1,29 @@
+Library: Library is a pre written code used for a specific purpose
+eg: react,jquery etc..,
+
+Framework: A framework is a set of pre-written code that provides a structure for developing software applications.
+Eg: Angular,Next Js
+
+Popular Libraries are:
+jquery
+axios
+react
+GSAP
+three Js etc..,
+
+To use any library , copy its cdn link and paste it in the body
+and use it
+
+JQuery:
+Jquery is a popular JS library used for dom manipulations or asynchronous JS
+
+$ -- > document.querySelector
+you can do effects like slideUp,slideDown,slideToggle,show,hide,Toggle,fadeIn,fadeOut,fadeToggle,animate
+you can do dom manipulations like addStyle,addClass,removeClass,text,html,create,append
+youcan do AJAX and events applications
+for documentation , check official website
+
+Typed JS -- for Typing effects
+slick,wow,owl carousel,swiperjs,tns slider, --- sliders
+AOS , anime js, GSAP, three js 
+chart js, d3 js, lodash
