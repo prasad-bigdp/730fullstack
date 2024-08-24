@@ -1,3 +1,6 @@
+console.log(a)
+var a = 25;
+
 (function ()
 {
     console.log("hello world")

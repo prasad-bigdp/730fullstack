@@ -1,0 +1,4 @@
+Object stores the data as a key value pair. data may be property or a method
+let obj={
+    
+}
