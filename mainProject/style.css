@@ -1,0 +1,16 @@
+#productsList{
+    margin: auto;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.product{
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
