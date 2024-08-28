@@ -23,12 +23,13 @@ let x=arr.map(function (ele)
        return "odd"
     }
 })
+arr=[1,2,3]
 let x2 = arr.map(function (ele) {
     return ele%2==0;
-})
+}) // [false,true,false]
 let x3 = arr.filter(function (ele) {
 	return ele%2==0
-})
+}) // [2]
 console.log(x2, x3)
 let x4=arr.every(function (ele)
 {

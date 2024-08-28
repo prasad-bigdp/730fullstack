@@ -29,10 +29,41 @@ let obj2 = {
 }
 function sum(a,b)
 {
-    console.log(this.x+this.y,a+b)
+    console.log(this.x+this.y,a+b) // this means current calling obj
 }
 sum.call(obj2, 5, 6)
 sum.apply(obj2, [5, 6])
+
+
+
+
+
+
+let obj3 = {
+    username:"PRASAD"
+}
+function fun3 ()
+{
+    console.log("my name is "+this.username)
+}
+let fun4 = fun3.bind(obj3)
+
+fun4() //my name is prasad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 let newFn = sum.bind(obj2)

@@ -9,8 +9,17 @@ let a2 = 30;
 //let a2 = 40; // redclaring is not possible
 a2 = 55; // reassign is possible 
 const a3 = 55;
-a3 = 65; // reassigning is also not possible
-
+//a3 = 65; // reassigning is also not possible
+function fun ()
+{
+    if (true)
+   
+   {
+         var x = 25; let y=25
+     }
+    console.log(x);
+}
+  fun()
 // var is a function scoped variable
 // let and const are block variables
 // var can do Hoisting

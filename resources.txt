@@ -1,0 +1,7 @@
+roadmap.sh
+https://github.com/markodenic/web-development-resources
+open source first contribution:
+https://github.com/firstcontributions/first-contributions
+
+CMS- Content Management Systems: Wordpress,Wix,joomla,
+webflow,shopify
