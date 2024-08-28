@@ -24,6 +24,7 @@ const displayData = (p)=>{
     const price = document.createElement('p');
     price.textContent= "Price: $"+ p.price
     const addCartButton = document.createElement('button')
+    addCartButton.addEventListener("click", () => addCartFn(p))
     addCartButton.textContent = "Add Cart";
     rightDiv.append(title,desc,price,addCartButton)
 }

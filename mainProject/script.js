@@ -48,7 +48,8 @@ function displayData (products)
         const proPrice = document.createElement('p');
         proPrice.textContent= "Price: $"+pro.price
         const addCartButton = document.createElement('button');
-        addCartButton.textContent= "Add Cart"
+        addCartButton.textContent = "Add Cart"
+        addCartButton.addEventListener('click',()=>addCartFn(pro))
         proDiv.append(proImage, proLink, proPrice, addCartButton);
         productsListDiv.appendChild(proDiv)
    })

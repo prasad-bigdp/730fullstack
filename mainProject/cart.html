@@ -23,7 +23,7 @@
                 <a href="" class="nav-link text-white">contact</a>
             </li>
             <li class=" nav-item">
-                <a href="./cart.html" class="nav-link text-white">Cart: <span id="total"></span></a>
+                <a href="" class="nav-link text-white">Cart: <span id="total"></span></a>
             </li>
 
          </ul>
@@ -34,18 +34,21 @@
     </header>
     <main>
 
-       <h1 class=" text-center">Products List</h1>
-       <select name="cat" id="cat">
-       
-       </select>
-       <div id="productsList"></div>
+       <h1 class=" text-center">Carts List</h1>
+       <div class="container">
+        <div id="cartsList"></div>
+        <div class="buttons">
+            <div>Total: <span id="to">0</span></div>
+            <button>Checkout</button>
+        </div>
+       </div>
     </main>
     <footer class=" text-white text-center bg-black p-5">
         This site belongs to <span class=" text-primary">XYZ</span> &copy; 2024
     </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
+    <script src="./cart.js"></script>
     <script src="./common.js"></script>
 </body>
 </html>

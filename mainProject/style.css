@@ -11,6 +11,14 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;  
+}
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartItem img{
+    height: 50px;
+    width: 50px;
 }
